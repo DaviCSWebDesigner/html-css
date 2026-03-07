@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+h1{
+    background-color: rgb(13, 73, 125);
+    color: aliceblue;
+}
+
+div:hover{
+    color: red;
+}
+ div > p{
+    display: none;
+ }
+ div:hover > p{
+    display: block;
+    color:rgb(121, 4, 239);background-color: aqua;
+    width: 170px;
+ }
+ 

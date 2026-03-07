@@ -1,0 +1,36 @@
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83E1AD;
+    --cor2:#3DDC84;
+    --cor3:#2FA866;
+    --cor4:#1A5C37;
+    --cor5:#063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+}
+body{
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor2);
+}
+header{
+    font-family: var(--fonte1);
+    color: var(--cor5);
+}
+h1{
+    font-family: var(--fonte1);
+    color: var(--cor5);
+    text-shadow: 2px 2px 0px rgba(1, 57, 35, 0.466);
+}
+p{
+    font-family: var(--fonte0);
+    color: var(--cor4);
+    text-align: justify;
+    line-height: 1.5em;
+}
+main{
+    margin: auto;
+    min-width: 400px;
+    max-width: 800px;
+}

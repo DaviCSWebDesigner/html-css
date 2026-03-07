@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h1{
+    font: italic bolder 3em 'Georgia';
+}
+
+h2{
+    font: italic 2em 'Verdana';
+}

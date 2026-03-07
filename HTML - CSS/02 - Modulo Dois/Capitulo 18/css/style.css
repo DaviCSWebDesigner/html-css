@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+body{
+    background-color: lightgoldenrodyellow;
+    font: normal 16ppx Arial, Verdana, serif;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
