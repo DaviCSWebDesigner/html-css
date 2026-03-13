@@ -13,7 +13,11 @@
     margin: 0px;
     padding: 0px;
 }
-
+main{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
 html, body{
     font-family: var(--fonte1);
     min-height: 100vh;
@@ -51,6 +55,9 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section p{
+    padding-bottom: 2em;
+}
 .normal{
     background-color: white;
     color: black;
@@ -58,14 +65,49 @@ section{
 .normal p{
     padding: 10px;
 }
-.imagem{
-    background-color: rgb(78, 74, 74);
+section.imagem{
+    background-color: rgba(78, 74, 74, 0.425);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.11);
 }
-.imagem p{
-    background-color: rgba(0, 0, 0, 0.482);
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.587);
+    text-shadow: 2px 2px 4px black;
     display: inline-block;
     padding: 10px;
+}
+section#img01{
+    background-color: transparent;
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img03{
+    background-image: url(../imagens/davi1.jpg);
+    background-attachment: fixed;
+    background-size: 200px;
+    background-position: center center;
+}
+section#img04{
+    background-image: url(../imagens/gremio.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 200px;
+    background-position: center center;
+}
+section#img05{
+    background-image: url(../imagens/rrindo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 200px;
+    background-position: center center;
 }
 footer{
     background-color: black;
